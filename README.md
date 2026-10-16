@@ -80,4 +80,4 @@ ffmpeg/ffprobeが必要です(環境変数`OPEN_AV_FFMPEG`/`OPEN_AV_FFPROBE`で�
 
 ---
 
-作者 / Author: 石塚正浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
+作者 / Author: 石 塚 正 浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
