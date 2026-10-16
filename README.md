@@ -77,3 +77,7 @@ ffmpeg/ffprobeが必要です(環境変数`OPEN_AV_FFMPEG`/`OPEN_AV_FFPROBE`で�
 **MQA and Auro-CX (honest disclosure):** both are patented, proprietary technologies with no open-source implementation; open-av neither decodes nor reimplements them. MQA-encoded audio can be carried untouched as `kind: "opaque"`, `decode: "none"` (pass it bit-perfectly to an MQA-capable DAC); the open parts of the idea come from `open-mqa`/`open-mqa-dsd` (WAV/FLAC/DSD/DoP). Auro-CX streams can likewise be carried as opaque passthrough for a licensed decoder; **no Auro-3D/Auro-CX compatibility is claimed**.
 
 **Status (2026-09-25, v0.1):** manifest spec + validation (5 unit tests), `pack` / `inspect` / `extract` verified with real ffmpeg (DSD round-trips bit-exactly, fallback video+audio still decodes). Not yet: playback of the DSD main track in open-bar, export from make-disk, real immersive-DSD playback tests.
+
+---
+
+作者 / Author: 石塚正浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
